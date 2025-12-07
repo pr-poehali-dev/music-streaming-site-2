@@ -8,19 +8,31 @@ import { Badge } from '@/components/ui/badge';
 import Icon from '@/components/ui/icon';
 
 const mockTracks = [
-  { id: 1, title: 'Midnight Dreams', artist: 'Aurora Sky', duration: '3:45', cover: '🌙', genre: 'Electronic', mood: 'Chill' },
-  { id: 2, title: 'Electric Pulse', artist: 'Neon Waves', duration: '4:12', cover: '⚡', genre: 'Electronic', mood: 'Energetic' },
-  { id: 3, title: 'Summer Vibes', artist: 'Sunset Boulevard', duration: '3:28', cover: '🌅', genre: 'Pop', mood: 'Happy' },
-  { id: 4, title: 'Deep Focus', artist: 'Mind Flow', duration: '5:00', cover: '🧠', genre: 'Ambient', mood: 'Focused' },
-  { id: 5, title: 'Night Drive', artist: 'Cyber City', duration: '4:33', cover: '🚗', genre: 'Synthwave', mood: 'Chill' },
-  { id: 6, title: 'Golden Hour', artist: 'Luna Park', duration: '3:55', cover: '✨', genre: 'Indie', mood: 'Happy' },
+  { id: 1, title: 'Blinding Lights', artist: 'The Weeknd', duration: '3:20', cover: '🌟', genre: 'Pop', mood: 'Energetic' },
+  { id: 2, title: 'Shape of You', artist: 'Ed Sheeran', duration: '3:53', cover: '🎸', genre: 'Pop', mood: 'Happy' },
+  { id: 3, title: 'Someone Like You', artist: 'Adele', duration: '4:45', cover: '🎹', genre: 'Soul', mood: 'Chill' },
+  { id: 4, title: 'Circles', artist: 'Post Malone', duration: '3:35', cover: '⭕', genre: 'Pop', mood: 'Chill' },
+  { id: 5, title: 'Bad Guy', artist: 'Billie Eilish', duration: '3:14', cover: '😈', genre: 'Alternative', mood: 'Energetic' },
+  { id: 6, title: 'Levitating', artist: 'Dua Lipa', duration: '3:23', cover: '✨', genre: 'Pop', mood: 'Happy' },
+  { id: 7, title: 'Watermelon Sugar', artist: 'Harry Styles', duration: '2:54', cover: '🍉', genre: 'Pop', mood: 'Happy' },
+  { id: 8, title: 'Peaches', artist: 'Justin Bieber', duration: '3:18', cover: '🍑', genre: 'R&B', mood: 'Chill' },
+  { id: 9, title: 'Save Your Tears', artist: 'The Weeknd', duration: '3:35', cover: '💧', genre: 'Pop', mood: 'Energetic' },
+  { id: 10, title: 'drivers license', artist: 'Olivia Rodrigo', duration: '4:02', cover: '🚗', genre: 'Pop', mood: 'Chill' },
+  { id: 11, title: 'Montero', artist: 'Lil Nas X', duration: '2:17', cover: '🦄', genre: 'Hip-Hop', mood: 'Energetic' },
+  { id: 12, title: 'Stay', artist: 'The Kid LAROI & Justin Bieber', duration: '2:21', cover: '🌙', genre: 'Pop', mood: 'Happy' },
 ];
 
 const mockArtists = [
-  { id: 1, name: 'Aurora Sky', followers: '2.4M', avatar: '🎤', verified: true },
-  { id: 2, name: 'Neon Waves', followers: '1.8M', avatar: '🎸', verified: true },
-  { id: 3, name: 'Sunset Boulevard', followers: '3.2M', avatar: '🎹', verified: true },
-  { id: 4, name: 'Mind Flow', followers: '890K', avatar: '🎧', verified: false },
+  { id: 1, name: 'The Weeknd', followers: '45.2M', avatar: '🎤', verified: true },
+  { id: 2, name: 'Ed Sheeran', followers: '52.8M', avatar: '🎸', verified: true },
+  { id: 3, name: 'Adele', followers: '38.6M', avatar: '🎹', verified: true },
+  { id: 4, name: 'Post Malone', followers: '34.5M', avatar: '🎧', verified: true },
+  { id: 5, name: 'Billie Eilish', followers: '42.1M', avatar: '💚', verified: true },
+  { id: 6, name: 'Dua Lipa', followers: '36.7M', avatar: '💃', verified: true },
+  { id: 7, name: 'Harry Styles', followers: '39.4M', avatar: '🌺', verified: true },
+  { id: 8, name: 'Justin Bieber', followers: '58.3M', avatar: '🎵', verified: true },
+  { id: 9, name: 'Olivia Rodrigo', followers: '28.9M', avatar: '🌟', verified: true },
+  { id: 10, name: 'Lil Nas X', followers: '25.4M', avatar: '🦋', verified: true },
 ];
 
 const mockPlaylists = [
